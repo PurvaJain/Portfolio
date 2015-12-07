@@ -1,0 +1,48 @@
+body{
+
+}
+
+.image-container{
+	background-image: url(../img/pic.jpg);
+	background-size: cover;
+	background-position: 0 -120px;
+	min-height: 400px;
+	height: 450px;
+}
+
+.image-container1{
+	background-image: url(../img/Background2.jpg);
+	background-size: cover;
+	background-position: 0 -120px;
+	min-height: 200px;
+	height: 250px;
+}
+.image-container2{
+	background-image: url(../img/guitar1.jpg);
+	background-size: cover;
+	background-position: 0 -120px;
+	min-height: 200px;
+	height: 300px;
+}
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.work{
+	background: #62bc98;
+	min-height: 500px;
+}
+.work1{
+	background: #cdcdcd;
+	min-height: 350px;
+}
+.work2{
+	background: #bebebe;
+	min-height: 120px;
+}
+.work3{
+	background: #e45245;
+	min-height: 350px;
+}
+
+
