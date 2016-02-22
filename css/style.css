@@ -1,48 +1,243 @@
-body{
-
+.white_text{
+	color: #fff;
 }
-
-.image-container{
-	background-image: url(../img/pic.jpg);
+.navbar-default{
+	background-color: transparent;
+	border: none;
+	padding-top: 10px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: transparent;
+    border-bottom: 3px solid #1b998b;
+    border-top: 3px solid #1b998b;
+}
+.header-shrink{
+	background: #000;
+	opacity: 0.9;
+	padding-bottom: 5px;
+    padding-top: 5px;
+}
+.navbar-default .navbar-brand{
+	font-size: 24px;
+	font-weight: bold;
+	color: #1b998b;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover{
+	color: #fff;
+	margin-right: 5px;
+}
+.jumbotron{
+	background: #000;
+	background-image: url(../img/banner.png);
+	background-position:center center;
 	background-size: cover;
-	background-position: 0 -120px;
 	min-height: 400px;
-	height: 450px;
-}
-
-.image-container1{
-	background-image: url(../img/Background2.jpg);
-	background-size: cover;
-	background-position: 0 -120px;
-	min-height: 200px;
-	height: 250px;
-}
-.image-container2{
-	background-image: url(../img/guitar1.jpg);
-	background-size: cover;
-	background-position: 0 -120px;
-	min-height: 200px;
-	height: 300px;
-}
-.navbar{
-	border-radius: 0;
 	margin-bottom: 0;
 }
-.work{
-	background: #62bc98;
+.jumbotron h1{
+	border-bottom: 5px solid #fff;
+    border-top: 5px solid #fff;
+    display: inline-block;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+}
+.jumbotron .icon{
+	margin-bottom: 20px;
+}
+.jumbotron a.social-icon{
+	margin: 8px;
+    display: inline-block;
+}
+.fa{
+	color: #1b998b;
+}
+.btn-primary{
+	background-color: #1b998b;
+	border: 1px solid #1b998b;
+	border-radius: 0;
+}
+.btn-primary:hover{
+	background: transparent;
+	border: 1px solid #1b998b;
+	color: #1b998b;
+}
+.btn-default{
+	background: transparent;
+	border: 1px solid #1b998b;
+	color: #1b998b;
+	border-radius: 0;
+}
+.btn-default:hover{
+	background: #1b998b;
+	border: 1px solid #1b998b;
+	color: #fff;
+}
+#about{
+	background-color: #DDDAD6;
+}
+#about h2, #resume h2{
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #393536;
+}
+#about .info{
+	width: 90%;
+	margin: 20px auto;
+	padding: 30px;
+	background: #fff;
+	color: #333;
+	opacity: 0.9;
+	min-height:400px;
+	height: 420px;
+}
+#about h6, #resume h6{
+	color: #00b796;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.info h4{
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+	color: #ABABAB;
+}
+.info p{
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	color: #333;
+}
+.info .bar{
+	width: 90%;
+	height: 20px;
+	padding: 3px;
+	background: #ccc;
+	margin-bottom: 20px;
+	position: relative;
+}
+.info .bar-inner1{
+	background: #EC3F8C;
+	width: 80%;
+	height: 14px;
+}
+.info .bar-inner2{
+	background: #6EC1C2;
+	width: 85%;
+	height: 14px;
+}
+.info .bar-inner3{
+	background: #1FD26A;
+	width: 70%;
+	height: 14px;
+}
+.info .bar-inner4{
+	background: #FBCB15;
+	width: 80%;
+	height: 14px;
+}
+.info .bar-inner5{
+	background: #72441E;
+	width: 65%;
+	height: 14px;
+}
+.info:first-child span{
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #333;
+}
+.info .bar span{
+	font-weight: bold;
+	font-size: 11px;
+	left: 7px;
+    position: absolute;
+}
+#resume{
+	background: #ccc;
+	min-height: 400px;
+}
+.text-resume{
+}
+.text-resume h3{
+	padding: 20px;
+	text-align: left;
+	background: #00b796;
+	color: #fff;
+	font-weight: bold;
+}
+#resume .resumeContent{
+	text-align: left;
+	padding: 30px;
+	background: #f2f2f2;
+	min-height: 200px;
+	margin-bottom: 20px;
+}
+.row.resumeContent{
+	margin-left: 0;
+	margin-right: 0;
+}
+#resume .resumeContent .resumeIcon a{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #00b796;
+	padding: 10px;
+	display: inline-block;
+}
+#resume .resumeContent a i{
+	color: #fff;
+}
+#portfolio{
 	min-height: 500px;
 }
-.work1{
-	background: #cdcdcd;
-	min-height: 350px;
+#portfolio .row .col-md-4{
+	padding-left: 0;
+	padding-right: 0;
 }
-.work2{
-	background: #bebebe;
-	min-height: 120px;
+ #portfolio h2{
+	text-transform: uppercase;
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	margin-bottom: 20px;
 }
-.work3{
-	background: #e45245;
-	min-height: 350px;
+.project{
+	margin: 0 auto;
+	height: 200px;	 
 }
-
-
+.project .overlay{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0;
+}
+.project:hover .overlay{
+	opacity: 0.7;
+	transform: translateY(-200px);
+}
+.project img{
+	width: 100%;
+	height: 100%;
+}
+#contact{
+	background-image: url(../img/work.jpg);
+	background-position:center center;
+	background-size: cover;
+	min-height: 400px;
+}
+#contact .col-md-6:last-child{
+	background: rgba(0,0,0,0.8);
+	min-height: 400px;
+}
+#contact p{
+	font-size: 20px;
+}
+#footer{
+	min-height: 40px;
+	width: 100%;
+	background: #000;
+}

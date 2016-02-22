@@ -1,54 +1,318 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Responsive webpage</title>
- <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
-<body>
-	<section class="image-container">		
-	</section>
-	<nav class="navbar navbar-inverse" id="navbar_container">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>					
-				</button>
-					<a href="" class="navbar-brand">Purva Jain</a>
-			</div><!-- End of navbar header-->
-			<div class="collapse navbar-collapse" id="navbar-collapse">
-				
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#Home">Home</a></li>
-					<li><a href="#Gallery">Gallery</a></li>
-					<li><a href="#AboutUs">AboutUs</a></li>
-					<li><a href="#Contact">Contact</a></li>					
-				</ul>
-				<ul class="navbar-right">
-					<a href="#"><i class="fa fa-facebook-square"></i></a>
-					<i class="fa fa-facebook-square"></i>
-					<i class="fa fa-twitter-square"></i>
-				</ul>
-			</div>
-		</div><!-- End container-->
-	</nav><!-- End navbar-->
-	<section class="work"></section>
-	<section class="image-container1"></section>
-	<section class="work1"></section>
-	<section class="work2"></section>
-	<section class="work3"></section>
-	<section class="image-container2"></section>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>My Portfolio</title>
 
- <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Purva Jain</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">        
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">RESUME</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav><!--Navigation end -->
+    
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <div class="container text-center white_text">
+      <h1>Purva Jain</h1>
+      <p>Frontend Developer. Working at Above Solutions.</p>
+        <div class="icon">
+          <a href="" class="social-icon"><i class="fa fa-2x fa-facebook"></i></a>
+          <a href="" class="social-icon"><i class="fa fa-2x fa-twitter"></i></a>
+          <a href="" class="social-icon"><i class="fa fa-2x fa-google-plus"></i></a>
+          <a href="" class="social-icon"><i class="fa fa-2x fa-github"></i></a>
+          <a href="" class="social-icon"><i class="fa fa-codepen fa-2x"></i></a>
+        </div>
+        <p>
+          <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+          <a class="btn btn-lg btn-default" href="#" role="button">Get In Touch</a>
+        </p>
+      </div>
+    </div> <!-- Jumbotron end -->
+
+    <!-- About section -->
+    <section id="about">
+        <div class="container">
+          <div class="row text-center">
+            <h2 class="col-sm-12">ABOUT ME</h2>
+            <h6 class="col-sm-12 ">Let me introduce myself</h6>
+            <div class="col-sm-6 col-md-4">
+              <div class="info text-left">
+                <h4>About</h4>
+                <span>I'm Purva Jain.I'm a passionate UI/UX Designer and Front-End Developer creating modern and responsive design for Web and Mobile.</span>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="info text-left">
+                <h4>Profile</h4>
+                <h6>NAME :</h6>
+                <p>Purva Jain</p>
+                <h6>PHONE NUMBER :</h6>
+                <p>+91-8867362940</p>
+                <h6>WEBSITE :</h6>
+                <p>www.purvajain.in</p>
+                <h6>Email :</h6>
+                <p>purva.jain80@yahoo.com</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="info text-left">
+                <h4>Skills</h4>
+                <h6>HTML5</h6>
+                <div class="bar">
+                  <div class="bar-inner1">
+                    <span class="percentage">80%</span>
+                  </div>
+                </div>
+                <h6>CSS3</h6>
+                <div class="bar">
+                  <div class="bar-inner2">
+                    <span class="percentage">85%</span>
+                  </div>
+                </div>
+                <h6>Javascript & jQuery</h6>
+                <div class="bar">
+                  <div class="bar-inner3">
+                    <span class="percentage">70%</span>
+                  </div>
+
+                </div>
+                <h6>Bootstrap 3</h6>
+                <div class="bar">
+                  <div class="bar-inner4">
+                    <span class="percentage">80%</span>
+                  </div>
+                </div>
+                <h6>Less</h6>
+                <div class="bar">
+                  <div class="bar-inner5">
+                    <span class="percentage">65%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About section end -->
+
+      <!-- Resume section-->
+          <section id="resume">
+        <div class="container">
+          <div class="row text-center">
+            <h2 class="col-sm-12">RESUME</h2>
+            <h6 class="col-sm-12 ">About my education</h6>
+            <div class="col-sm-6">
+              <div class="text-resume"> 
+                <h3 class="">EDUCATION</h3>
+                <div class="row resumeContent">
+                  <div class="resumeIcon col-sm-2">
+                    <a href="#"><i class="fa fa-book fa-2x"></i></a>
+                  </div>
+                  <div class="col-sm-10">
+                    <h4>BACHELOR OF TECHNOLOGY</h4>
+                    <h6>2009-2013</h6>
+                    <p>From Kashi-IT with an aggregate percentage of 76</p>
+                  </div>
+                </div>
+                <div class="row resumeContent">
+                  <div class="resumeIcon col-sm-2">
+                    <a href="#"><i class="fa fa-book fa-2x"></i></a>
+                  </div>
+                  <div class="col-sm-10">
+                    <h4>HIGHER SECONDARY SCHOOL</h4>
+                    <h6>2008-2009</h6>
+                    <p>From T.V.N with percentage of 71</p>
+                  </div>
+                </div>
+                <div class="row resumeContent">
+                  <div class="resumeIcon col-sm-2">
+                    <a href="#"><i class="fa fa-book fa-2x"></i></a>
+                  </div>
+                  <div class="col-sm-10">
+                    <h4>SENIOR SECONDARY SCHOOL</h4>
+                    <h6>2006-2007</h6>
+                    <p>From T.V.N with percentage of 80</p>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <div class="col-sm-6">
+              <div class="text-resume"> 
+                <h3>EMPLOYMENT</h3>
+                <div class="row resumeContent">
+                  <div class="resumeIcon col-sm-2">
+                    <a href="#"><i class="fa fa-briefcase fa-2x"></i></a>
+                  </div>
+                  <div class="col-sm-10">
+                    <h4>SOFTWARE ENGINEER</h4>
+                    <h6>2013- CURRENT</h6>
+                    <p>Software Engineer at ABOVE SOLUTIONS INDIA PVT LTD.</p>
+                  </div>
+                </div>
+                <div class="row resumeContent">
+                  <div class="resumeIcon col-sm-2">
+                    <a href="#"><i class="fa fa-briefcase fa-2x"></i></a>
+                  </div>
+                  <div class="col-sm-10">
+                    <h4>FREELANCER</h4>
+                    <h6>2012-2013</h6>
+                    <p>Worke on photoshop and webpage.</p>
+                  </div>
+                </div>
+                <!-- <div class="row resumeContent">
+                  <div class="resumeIcon col-sm-2">
+                    <a href="#"><i class="fa fa-briefcase fa-2x"></i></a>
+                  </div>
+                  <div class="col-sm-10">
+                    <h4>BACHELOR OF TECHNOLOGY</h4>
+                    <h6>2009-2013</h6>
+                    <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,</p>
+                  </div>
+                </div>
+                              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Resume section end-->
+
+       <!-- portfolio -->
+    <section id="portfolio">
+      <div class="container-fluid">
+        <div class="row text-center">
+        <h2 class="heading">Portfolio</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="project">
+            <img src="img/p1.jpg" alt="">
+            <div class="overlay">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="project">
+            <img src="img/p2.jpg" alt="">
+            <div class="overlay">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="project">
+            <img src="img/p3.jpg" alt="">
+            <div class="overlay">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="project">
+            <img src="img/p4.jpg" alt="">
+            <div class="overlay">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="project">
+            <img src="img/p5.jpg" alt="">
+            <div class="overlay">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="project">
+            <img src="img/p8.jpg" alt="">
+            <div class="overlay">
+              
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Portfolio end-->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6 text-center white_text">
+            <h2 class="heading">Contact</h2>
+            <h3>Get In Touch</h3>
+            <p><i class="fa fa-map-marker"></i> B.T.M Layout, Bangalore - 560029</p>
+            <p><i class="fa fa-envelope"></i> purva.jain80@yahoo.com</p>
+            <p><i class="fa fa-mobile"></i> +91-8867153094</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact end -->
+
+    <!--footer -->
+    <footer id="footer">
+      <div class="nav navbar-inverse footer"></div>
+    </footer>
+    <!-- footer end-->
+
+   <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>    
     <script src="js/bootstrap.min.js"></script>
-</body>
+    <script>
+    $(document).ready(function(){
+       $(window).on("scroll",function() {
+        
+        if ($(".navbar").offset().top > 50) {
+            $(".navbar-fixed-top").addClass("header-shrink");
+        } else {
+            $(".navbar-fixed-top").removeClass("header-shrink");
+        }
+      });
+
+      $("ul li").on("click", function(){
+        $("li").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+    </script>
+  </body>
 </html>
